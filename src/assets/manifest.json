@@ -1,0 +1,30 @@
+{
+  "name": "Aplicação PWA Angular",
+  "short_name": "PWAngular",
+  "icons": [
+    {
+      "src": "img/icon40x40.png",
+      "sizes": "40x40",
+      "types": "image/png"
+    },
+    {
+      "src": "img/icon80x80.png",
+      "sizes": "80x80",
+      "types": "image/png"
+    },
+    {
+      "src": "img/icon128x128.png",
+      "sizes": "128x128",
+      "types": "image/png"
+    },
+    {
+      "src": "img/icon144x144.png",
+      "sizes": "144x144",
+      "types": "image/png"
+    }
+  ],
+  "start_url": "index.html",
+  "display": "standalone",
+  "background-color": "#607d8b",
+  "theme_color": "#607d8b"
+}
