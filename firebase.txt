@@ -1,0 +1,14 @@
+POST https://fcm.googleapis.com/fcm/send
+
+HEADER
+Authorization key=AAAASyOCMAM:APA91bEu2jF0UYYcigqgXKJqbCP_gj0PC9SgzILUC1OMe66FnzwyOh0QiDQSFDNTeo7NKXfcjV4XU2sHC4bwSAp22hp7xjzY8pZbyxg1L6NC2HjKYY-leUlvvkMpdghDsOCQf_depAVT
+
+{
+	"to": "cJ1CbXrBuNE:APA91bG2B156dXW0uG1BDmzqlsf0_o5hWvVnbOw5FvpSphQ39-GN6QeL71gsPz8jvvXJ5FfOkvZJ7rdEhYKIufQ3jGLLjFhfe7-cLpBDSefkMWcinZr-jgf0eJGfwtUhvPU47dyEzjmR",
+	"notification": {
+		"title": "teste de notificação",
+		"body": "corpo da notificação",
+		"click_action": "http://localhost:8000",
+		"icon": "https://www.freeiconspng.com/uploads/apps-sms-icon-3.png"
+	}
+}
