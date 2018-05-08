@@ -21,11 +21,21 @@
       "src": "img/icon144x144.png",
       "sizes": "144x144",
       "types": "image/png"
+    },
+    {
+      "src": "img/icon192x192.png",
+      "sizes": "192x192",
+      "types": "image/png"
+    },
+    {
+      "src": "img/icon512x512.png",
+      "sizes": "512x512",
+      "types": "image/png"
     }
   ],
-  "start_url": "index.html",
+  "start_url": "./../index.html",
   "display": "standalone",
-  "background-color": "#607d8b",
+  "background_color": "#607d8b",
   "theme_color": "#607d8b",
   "gsm_sender_id": "103953800507",
   "gsm_user_visible_only": true

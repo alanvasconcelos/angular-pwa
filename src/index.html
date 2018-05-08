@@ -8,11 +8,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="manifest" href="assets/manifest.json">
+  <meta name="theme-color" content="#607d8b">
 </head>
 <body>
-  <app-root></app-root>
+  <app-root>Carregando...</app-root>
   <script>
-    if ('servicework' in navigator) {
+    if ('serviceWorker' in navigator) {
       navigator.serviceWorker.register('/service-worker.js')
         .then(registration => {
           console.log('service work registrade successful with scope: ', registration);
